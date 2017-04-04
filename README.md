@@ -17,7 +17,8 @@ Let's say you got pulled over for speeding. This Python unit test challenge is d
     * True = if it's your birthday
     * False = if it's not your birthday
 
-**Output:** fine in the form of an integer (0, 500, or 1000)
+**Output:**
+fine in the form of an integer (0, 500, or 1000)
 ------------
 
 **Examples:**
