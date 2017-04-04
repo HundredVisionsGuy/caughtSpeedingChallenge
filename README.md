@@ -18,8 +18,8 @@ Let's say you got pulled over for speeding. This Python unit test challenge is d
     * False = if it's not your birthday
 
 **Output:**
-fine in the form of an integer (0, 500, or 1000)
 ------------
+Output will be a fine in the form of an integer (0, 500, or 1000)
 
 **Examples:**
 inputs => output/s
