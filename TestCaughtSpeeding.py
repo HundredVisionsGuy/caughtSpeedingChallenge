@@ -6,7 +6,7 @@ import caughtSpeeding
 
 class KnownValues(unittest.TestCase):
 
-    def test_caughtSpeedingFor5over_NoBirthday(self):
+    def test_caughtSpeedingForSameSpeed_NoBirthday(self):
         # Capture the results of the function
         result = caughtSpeeding.caughtSpeeding(45, 45, False)
         # Check for expected output
