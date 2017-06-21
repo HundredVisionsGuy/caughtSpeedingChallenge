@@ -22,7 +22,7 @@ class KnownValues(unittest.TestCase):
         # Capture the results of the function
         result = caughtSpeeding.caughtSpeeding(55, 45, False)
         # Check for expected output
-        self.assertEqual(500)
+        self.assertEqual(500, result)
 
     def test_caughtSpeedingFor21over_NoBirthday(self):
         # Capture the results of the function
@@ -46,7 +46,7 @@ class KnownValues(unittest.TestCase):
         # Capture the results of the function
         result = caughtSpeeding.caughtSpeeding(105, 55, False)
         # Check for expected output
-        self.assertEqual(2000)
+        self.assertEqual(2000, result)
 
     def test_caughtSpeedingFor10over_Birthday(self):
         # Capture the results of the function
@@ -58,7 +58,7 @@ class KnownValues(unittest.TestCase):
         # Capture the results of the function
         result = caughtSpeeding.caughtSpeeding(60, 40, True)
         # Check for expected output
-        self.assertEqual(500)
+        self.assertEqual(500, result)
 
     def test_caughtSpeedingFor25over_Birthday(self):
         # Capture the results of the function
